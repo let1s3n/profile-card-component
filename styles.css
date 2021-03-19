@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(185, 75%, 39%);
+  overflow:hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+  color:hsl(0, 0%, 59%);
+}
+
+.card{
+  width:90vw;
+  height:45vh;
+  border-radius: 10px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-22.5vh;
+  margin-left:-45vw;
+  background-color: white;
+  box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.05), 5px 0px 50px rgba(0, 0, 0, 0.05), 0px 5px 50px rgba(0, 0, 0, 0.05),  -5px 0px 50px rgba(0, 0, 0, 0.05);
+  z-index:1;
+}
+.card-header{
+  position:absolute;
+  width:100%;
+  height:75%;
+  
+  top:0;
+  background: url(./images/bg-pattern-card.svg) no-repeat;
+  background-size: 100% 50%;
+  border-radius: 10px;
+  
+}
+
+.card-info{
+  width:100%;
+  text-align: center;
+  padding:10px;
+  position:absolute;
+  bottom:20px;
+}
+
+.card-footer{
+  width:100%;
+  height:25%;
+  position:absolute;
+  bottom:0;
+  border-top:1px solid lightgray;
+  text-align: center;
+}
+
+
+.bg-pattern-top{
+  width:1000px;
+  height:1000px;
+  position:absolute;
+  top:-600px;
+  left:-735px;
+  
+  background:url(./images/bg-pattern-top.svg) no-repeat;
+  background-size: 1000px 1000px ;
+}
+.bg-pattern-bottom{
+  width:1000px;
+  height:1000px;
+  position:absolute;
+  bottom:-600px;
+  right:-735px;
+  background:url(./images/bg-pattern-bottom.svg) no-repeat;
+  background-size: 1000px 1000px ;
+}
+p.important-text{
+  font-size:18px;
+  font-weight: 700;
+  margin:10px;
+  color:black;
+}
+
+p.important-text span{
+ font-weight: 400;
+  color:hsl(0, 0%, 59%);
+}
+
+.profile-picture{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  border:5px solid white;
+  background: url(./images/image-victor.jpg);
+}
+
+.stats{
+  padding:20px;
+}
+.stats li{
+  width:30%;
+  height:80%;
+  list-style: none;
+  display: inline-block;
+}
+
+.attribution { color:white;font-size: 11px; text-align: center; }
+    .attribution a { color: blue; }
+
+@media only screen and (min-width: 1440px) {
+  .card{
+    width: 25vw;
+    height:50vh;
+    margin-top:-25vh;
+    margin-left:-12.5vw;
+    
+  }
+
+  .card-info{
+    width:100%;
+    text-align: center;
+    padding:10px;
+    position:absolute;
+    bottom:20px;
+  }
+  
+
+  .bg-pattern-top{
+    width:1500px;
+    height:1500px;
+    top:-900px;
+    left:-500px;
+    background-size: 1500px 1500px ;
+  }
+
+  .bg-pattern-bottom{
+    width:1500px;
+    height:1500px;
+    bottom:-1000px;
+    right:-500px;
+    background-size: 1500px 1500px ;
+  }
+
+  
+}
