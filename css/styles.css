@@ -30,7 +30,7 @@ body{
   height:75%;
   
   top:0;
-  background: url(./images/bg-pattern-card.svg) no-repeat;
+  background: url(../img/bg-pattern-card.svg) no-repeat;
   background-size: 100% 50%;
   border-radius: 10px;
   
@@ -57,20 +57,20 @@ body{
 .bg-pattern-top{
   width:1000px;
   height:1000px;
-  position:absolute;
+  position:fixed;
   top:-600px;
   left:-735px;
   
-  background:url(./images/bg-pattern-top.svg) no-repeat;
+  background:url(../img/bg-pattern-top.svg) no-repeat;
   background-size: 1000px 1000px ;
 }
 .bg-pattern-bottom{
   width:1000px;
   height:1000px;
-  position:absolute;
+  position:fixed;
   bottom:-600px;
   right:-735px;
-  background:url(./images/bg-pattern-bottom.svg) no-repeat;
+  background:url(../img/bg-pattern-bottom.svg) no-repeat;
   background-size: 1000px 1000px ;
 }
 p.important-text{
@@ -95,7 +95,7 @@ p.important-text span{
   margin-top:-50px;
   margin-left:-50px;
   border:5px solid white;
-  background: url(./images/image-victor.jpg);
+  background: url(../img/image-victor.jpg);
 }
 
 .stats{
@@ -130,6 +130,26 @@ p.important-text span{
   
 
   .bg-pattern-top{
+    width:1000px;
+    height:1000px;
+    top:-500px;
+    left:-300px;
+    background-size: 1000px 1000px ;
+  }
+
+  .bg-pattern-bottom{
+    width:1200px;
+    height:1000px;
+    bottom:-620px;
+    right:-450px;
+    background-size: 1200px 1000px ;
+  }
+
+  
+}
+
+@media only screen and (min-width: 1800px){
+  .bg-pattern-top{
     width:1500px;
     height:1500px;
     top:-900px;
@@ -144,6 +164,5 @@ p.important-text span{
     right:-500px;
     background-size: 1500px 1500px ;
   }
-
-  
 }
+
